@@ -1,0 +1,19 @@
+{
+  "name": "OpenFin_appseed",
+  "version": "1.0.0",
+  "description": "A vanilla simple openfin app to be used as a starting point for app development",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --single-run --browsers Chrome",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "OpenFin"
+  ],
+  "author": "Graham Clapham",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "openfin-launcher": "^1.4.2"
+  }
+}

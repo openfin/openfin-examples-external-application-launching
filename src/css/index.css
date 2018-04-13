@@ -1,0 +1,50 @@
+body {
+    background: #101010;
+    color: #FFF;
+    font-family: sans-serif;
+}
+
+#logo {
+    float: right;
+    height: 30px;
+    margin-right: 20px;
+}
+
+#runtime-version {
+    font-size: small;
+}
+
+#info {
+    width: 100%;
+    height: 32px;
+}
+
+.content {
+    width: 80%;
+    display: block;
+    margin: 15px auto 15px auto;
+}
+
+#convert-pdf {
+    float: right;
+    background-color: #504Cff;
+    color: #FFF;
+    padding: 32px 16px;
+    border: none;
+    border-radius: 12px;
+}
+
+#convert-pdf:hover {
+    cursor: pointer;
+}
+
+#path-container {
+    text-align: center;
+}
+
+#path {
+    padding: 5px;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+}
