@@ -54,9 +54,12 @@ function launchPackagedExecutable(){
         alias: 'pdftohtml-alias',
         arguments: _pdfPath+" "+_outputPath,
         listener: function(event){
+            const statusDiv = document.getElementById('status');
             if(event.topic === "exited" && event.exitCode === 0) {
-                console.log("Exited External Process");
-            }else{
+                statusDiv.innerText = 'PDF Successfully converted!';
+            } else if (event.topic === "exited" && event.exitCode === 1) {
+                statusDiv.innerText = 'Error Converting PDF - Please provide valid file path.';
+            } else {
                 console.log("Running External Process");
             }
         }
