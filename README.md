@@ -40,7 +40,7 @@ Native assets are include as `appAssets` in your Application Manifest.
     }
   ]
 ```
-[See In Source]
+[See In Source](https://github.com/openfin/openfin-examples-external-application-launching/blob/repo-cleanup/src/local-app.json#L21)
 
 * `src` Path to a hosted .zip containing the executable
 * `alias` Name to use when invoking the .exe
@@ -49,7 +49,7 @@ Native assets are include as `appAssets` in your Application Manifest.
 
 In this repo, the executable is launched using the input from the app as an argument. Optionally, you can include an `args` field in your `appAsset` object which will be passed along when invoking.
 
-After including the asset, you can launch using the `fin.desktop.System.launchExternalProcess` call. [See In Source]
+After including the asset, you can launch using the `fin.desktop.System.launchExternalProcess` call. [See In Source](https://github.com/openfin/openfin-examples-external-application-launching/blob/repo-cleanup/src/js/index.js#L53)
 
 ## API Documentation
 
