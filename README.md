@@ -18,7 +18,7 @@ OpenFin allows developers to package native applications along with their web ba
 
 ### Installer
 
-[OpenFin Installer](https://github.openfin.io/openfin-examples-external-application-launching)
+[OpenFin Installer](https://openfin.github.io/openfin-examples-external-application-launching/External%20Application%20Tutorial.zip)
 
 ### Run Locally
 
