@@ -1,0 +1,29 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "OpenFin appseed",
+        "description": "A vanilla appseed for OpenFin applications",
+        "url": "https://openfin.github.io/openfin-examples-external-application-launching/src/index.html",
+        "uuid": "openfin-closing-events-demo",
+        "autoShow": true,
+        "defaultHeight": 400,
+        "defatultWidth": 750
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "stable"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "OpenFin appseed",
+        "name": "OpenFin appseed"
+    },
+    "appAssets": [
+        {
+            "src": "https://openfin.github.io/openfin-examples-external-application-launching/src/assets/dist.zip",
+            "alias": "pdftohtml-alias",
+            "target": "pdftohtml.exe",
+            "version": "0.0.1"
+        }
+    ]
+}
