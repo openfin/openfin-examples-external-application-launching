@@ -36,7 +36,6 @@ function onPathChanged(evt){
     if (evt.target.value.length > 0) {
         const _pathString = String(evt.target.value);
         _pdfPath = '"'+_pathString.split("\\").join("\\\\")+'"';
-        console.log(_pdfPath);
         const _trimmedOutput = _pathString.split("\\");
         const pdfName = _trimmedOutput.pop();
         _trimmedOutput.push("html_output");
@@ -56,8 +55,12 @@ function launchPackagedExecutable(){
         listener: function(event){
             const statusDiv = document.getElementById('status');
             if(event.topic === "exited" && event.exitCode === 0) {
-                statusDiv.innerText = 'PDF Successfully converted!';
+                console.log('External process event listener fired');
+                console.log(event);
+                statusDiv.innerText = 'PDF Process Exited with Code 0';
             } else if (event.topic === "exited" && event.exitCode === 1) {
+                console.log('External process event listener fired');
+                console.log(event);
                 statusDiv.innerText = 'Error Converting PDF - Please provide valid file path.';
             } else {
                 console.log("Running External Process");
