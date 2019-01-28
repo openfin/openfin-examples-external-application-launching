@@ -60,9 +60,9 @@ After including the asset, you can launch using the `fin.desktop.System.launchEx
 This is a starter example and intended to demonstrate to app providers a sample of how to approach an implementation.
 
 ## License
+MIT
 
-By downloading OpenFin, you agree to the terms of our Developer License.
+The code in this repository is covered by the included license.  If you run this code, it may call on the OpenFin RVM or OpenFin Runtime, which are subject to OpenFin’s [Developer License](https://openfin.co/developer-agreement/). If you have questions, please contact support@openfin.co”
 
 ## Support
-
-Please enter an issue in the repo for any questions or problems.
+Please enter an issue in the repo for any questions or problems. Alternatively, please contact us at support@openfin.co 
